@@ -9,6 +9,7 @@ import stylesBase from '../components/stylesBase'
 import { ThemeProvider } from "../components/ThemeContext"
 
 import "twin.macro"
+
 type NextPageWithLayout = NextPage & {
   getLayout?: (page: ReactElement) => ReactNode,
 }
